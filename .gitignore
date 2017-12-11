@@ -1,0 +1,15 @@
+.idea/
+.idea/
+node_modules
+.sublime-gulp.cache
+sftp-config.json
+gulpfile.js
+package.json
+*.exe
+*.cfg
+.DS_Store
+._.DS_Store
+prepros-*.config
+prepros.cfg
+.vscode
+
