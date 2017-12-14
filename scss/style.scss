@@ -79,6 +79,25 @@ body {
 	margin-left: -30px;
 }
 
+.card {
+	display: flex;
+	flex-direction: column;
+	&-content{
+		flex-grow: 1;
+	}
+}
+
+.ba-play-btn {
+	* {
+		pointer-events: none;
+	}
+	&.pulse{
+		.play-icon{
+			display: none;
+		}
+	}
+}
+
 .ba-tune-play {
 	&.pulse {
 		&> :first-child {

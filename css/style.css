@@ -948,6 +948,29 @@ body {
   margin-left: -30px;
 }
 
+.card {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-content {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.ba-play-btn * {
+  pointer-events: none;
+}
+
+.ba-play-btn.pulse .play-icon {
+  display: none;
+}
+
 .ba-tune-play.pulse > :first-child {
   display: none;
 }

@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>iTunes</title>
+	<title>iTunes Search</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -49,10 +49,13 @@
 						<div class="card">
                             <div class="card-image">
                                 <img src="{{artworkUrl100}}" alt="{{artistName}} - {{trackName}}">
-                                <button class="btn-floating btn-large halfway-fab waves-effect waves-light red">
-                                    <i class="material-icons">play_arrow</i>
-                                </button>
-                                <span class="card-title">{{artistName}}</span>
+                                <button class=" ba-play-btn btn-floating btn-large halfway-fab waves-effect waves-light red">
+									<i class="material-icons play-icon">play_arrow</i>
+									<i class="material-icons">pause</i>
+			
+								</button>
+								<audio src="{{previewUrl}}"></audio>
+                                <span class="card-title truncate">{{artistName}}</span>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">{{trackName}}</span>
